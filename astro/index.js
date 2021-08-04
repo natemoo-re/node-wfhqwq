@@ -96,5 +96,5 @@ export async function createServer() {
   app.get('*', vite.middlewares);
 
   app.listen(3000);
-  // console.log('App listening on http://localhost:3000')
+  console.log('App listening on http://localhost:3000')
 }
