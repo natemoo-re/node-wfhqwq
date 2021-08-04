@@ -1,0 +1,12 @@
+{
+  "name": "vite-astro",
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "astro"
+  },
+  "devDependencies": {
+    "astro": "0.0.1",
+    "typescript": "^4.3.2"
+  }
+}

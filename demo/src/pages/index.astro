@@ -1,0 +1,23 @@
+---
+import Test from '../components/Test.astro';
+const text = "Hello world!";
+const items = [0, 1, 2];
+---
+
+<html>
+  <head>
+    <title>Astro</title>
+    <link rel="stylesheet" href="/index.css">
+    <style>
+      h1 {
+          color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      {text}
+    </h1>
+    <Test />
+  </body>
+</html>
