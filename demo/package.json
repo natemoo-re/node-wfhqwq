@@ -6,7 +6,6 @@
     "dev": "node ../astro/bin.js"
   },
   "devDependencies": {
-    "astro": "file:../astro",
     "typescript": "^4.3.2"
   }
 }
