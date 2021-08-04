@@ -7,7 +7,7 @@
         "astro": "./bin.js"
     },
     "dependencies": {
-        "vite": "^2.4.4",
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "vite": "^2.4.4"
     }
 }
