@@ -3,10 +3,10 @@
   "type": "module",
   "version": "0.0.0",
   "scripts": {
-    "dev": "astro"
+    "dev": "node ../astro/bin.js"
   },
   "devDependencies": {
-    "astro": "0.0.1",
+    "astro": "file:../astro",
     "typescript": "^4.3.2"
   }
 }
