@@ -41,7 +41,7 @@ export default function astro() {
         const code = await transformAstroToJS(fs.readFileSync(id));
         cache.set(id, code);
         return {
-          code: `import 'astro/shim.js';
+          code: `import 'astro/shim.cjs';
 ${code}`,
           map: null
         }

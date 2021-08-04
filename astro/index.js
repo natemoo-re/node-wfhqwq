@@ -1,7 +1,10 @@
 import express from 'express';
 import path from 'path';
-import astro from './plugin';
+import { createRequire } from 'module';
+import astro from './plugin/index.js';
 import { createServer as createViteServer } from 'vite';
+
+const require = createRequire(import.meta.url);
 
 export async function createServer() {
   const app = express();
